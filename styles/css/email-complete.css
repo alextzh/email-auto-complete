@@ -1,0 +1,31 @@
+.js-emailcomplete-area {
+  display: none;
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  position: absolute;
+  z-index: 9999;
+  max-height: 220px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: left;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); }
+
+.js-emailcontainer {
+  border-collapse: collapse;
+  border-spacing: 0;
+  background: #FFFFFF;
+  width: 100%;
+  cursor: default;
+  padding: 5px; }
+
+.js-autorow {
+  background: #FFFFFF;
+  line-height: 20px;
+  padding: 3px 12px;
+  white-space: nowrap; }
+
+.js-emailcomplete-selected {
+  background: #eeeeee;
+  color: #337ab7; }

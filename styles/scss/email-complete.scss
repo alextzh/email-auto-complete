@@ -1,0 +1,52 @@
+$autoCompleteBackgroundColor:#FFFFFF;
+$autoCompleteFontColor:#000000;
+$autoCompleteBoxShadow:0 6px 12px rgba(0, 0, 0, .175);
+// 主体样式
+$autoCompleteBorder:1px solid #cccccc;
+$autoCompleteBorderRadius:4px;
+// 主体边框样式
+$autoCompleteMaxHeight:220px;
+// 出现滚动条的最大高度
+$autoCompleteSelectColor:rgb(238, 238, 238);
+$autoCompleteSelectFontColor:rgb(51, 122, 183);
+// 选中样式
+$autoCompleteTablePadding:5px;
+// 显示下拉框样式
+$autoCompleteLineHeight:20px;
+$autoCompleteRowPadding:3px 12px;
+// 单行样式
+.js-emailcomplete-area {
+    display: none;
+    background-color: $autoCompleteBackgroundColor;
+    color: $autoCompleteFontColor;
+    border: $autoCompleteBorder;
+    border-radius: $autoCompleteBorderRadius;
+    position: absolute;
+    z-index: 9999;
+    max-height: $autoCompleteMaxHeight;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: left;
+    box-shadow: $autoCompleteBoxShadow;
+}
+
+.js-emailcontainer {
+    border-collapse: collapse;
+    border-spacing: 0;
+    background: $autoCompleteBackgroundColor;
+    width: 100%;
+    cursor: default;
+    padding: $autoCompleteTablePadding;
+}
+
+.js-autorow {
+    background: $autoCompleteBackgroundColor;
+    line-height: $autoCompleteLineHeight;
+    padding: $autoCompleteRowPadding;
+    white-space: nowrap;
+}
+
+.js-emailcomplete-selected {
+    background: $autoCompleteSelectColor;
+    color: $autoCompleteSelectFontColor;
+}
